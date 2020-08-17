@@ -1,0 +1,258 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libEvent.dylib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories",
+			"include",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/Applications/root_v6.18.04/cmake/ROOTUseFile.cmake",
+			"/Users/antonc/Documents/geant4.10.5-install/lib/Geant4-10.5.1/UseGeant4.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 37,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 36,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -Qunused-arguments -DGL_SILENCE_DEPRECATION -stdlib=libc++ -DG4USE_STD11 -std=c++11  -std=c++11 -m64 -pipe -fsigned-char -fno-common -Qunused-arguments -pthread -stdlib=libc++ -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "Event_EXPORTS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "G4INTY_USE_XT"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "G4LIB_USE_PYTHIA8"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "G4UI_USE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "G4UI_USE_TCSH"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "G4VERBOSE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "G4VIS_USE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "G4VIS_USE_OPENGL"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "G4VIS_USE_OPENGLX"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "G4_STORE_TRAJECTORY"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/antonc/Programs/HEP_SOFTWARES/HEPMC/HepMC-install/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Applications/root_v6.18.04/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/antonc/Documents/GitHub/Master/InOne/HepMCEx02_PGun_CylindricGeo_CELL_HOM_Mat/cmake"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/antonc/Documents/GitHub/Master/InOne/HepMCEx02_PGun_CylindricGeo_CELL_HOM_Mat/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/antonc/Documents/GitHub/Master/InOne/HepMCEx02_PGun_CylindricGeo_CELL_HOM_Mat/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/antonc/Programs/HEP_SOFTWARES/PYTHIA/pythia8243/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "/Users/antonc/Documents/geant4.10.5-install/include/Geant4"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "Event::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-L/Applications/root_v6.18.04/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Applications/root_v6.18.04/lib /Applications/root_v6.18.04/lib/libCore.so /Applications/root_v6.18.04/lib/libImt.so /Applications/root_v6.18.04/lib/libRIO.so /Applications/root_v6.18.04/lib/libNet.so /Applications/root_v6.18.04/lib/libHist.so /Applications/root_v6.18.04/lib/libGraf.so /Applications/root_v6.18.04/lib/libGraf3d.so /Applications/root_v6.18.04/lib/libGpad.so /Applications/root_v6.18.04/lib/libROOTDataFrame.so /Applications/root_v6.18.04/lib/libTree.so /Applications/root_v6.18.04/lib/libTreePlayer.so /Applications/root_v6.18.04/lib/libRint.so /Applications/root_v6.18.04/lib/libPostscript.so /Applications/root_v6.18.04/lib/libMatrix.so /Applications/root_v6.18.04/lib/libPhysics.so /Applications/root_v6.18.04/lib/libMathCore.so /Applications/root_v6.18.04/lib/libThread.so /Applications/root_v6.18.04/lib/libMultiProc.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Event",
+	"nameOnDisk" : "libEvent.dylib",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/G__Event.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/G__Event.cxx.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

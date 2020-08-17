@@ -1,0 +1,8 @@
+{ decls }
+namespace std { inline namespace __1 {  } }
+
+[ libHepMC.dylib ]
+# List of selected classes
+class vector<TLorentzVector>
+class vector<double>
+class vector<vector<double> >

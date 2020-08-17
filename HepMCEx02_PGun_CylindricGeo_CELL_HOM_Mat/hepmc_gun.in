@@ -1,0 +1,54 @@
+/generator/select particleGun
+
+#/gun/particle e-
+#/gun/particle pi0
+#/gun/particle pi-
+#/gun/particle gamma
+#/gun/energy 1000 GeV
+
+#/tracking/verbose 1
+/tracking/storeTrajectory 1
+
+
+#/gps/source/clear
+#/gps/source/multiplevertex true
+
+
+#see https://geant4.web.cern.ch/geant4/UserDocumentation/UsersGuides/ForApplicationDeveloper/html/ch02s07.html for details.
+#/gps/List #lists the particles you can shoot with G4
+#/gps/source/add 1
+#/gps/particle pi0
+#/gps/pos/type Point
+#/gps/pos/centre 0.0 0.0 -28.8
+#/gps/direction 1 0 0.3
+#/gps/ene/type Mono
+#/gps/energy 100 GeV
+#/gps/ene/min 1 GeV
+#/gps/ene/max 5 GeV
+#/gps/ene/gradient 0. #uniform
+#/gps/ene/intercept 1
+#/gps/number 1
+
+#/gps/source/add 2
+#/gps/particle pi-
+#/gps/pos/type Point
+#/gps/pos/centre 0.0 0.0 -28.8
+#/gps/direction 0 0 1
+#/gps/ang/type iso
+#/gps/ang/mintheta 100 deg
+#/gps/ang/maxtheta 0.2 rad
+#/gps/ang/rot1 0 0 1
+#/gps/ang/rot2 0 1 0
+#/gps/ene/type Mono
+#/gps/energy 100 GeV
+#/gps/ene/min 1 GeV
+#/gps/ene/max 5 GeV
+#/gps/ene/gradient 0. #uniform
+#/gps/ene/intercept 1
+#/gps/number 2
+
+#/gps/source/multiplevertex true
+
+/run/beamOn 100
+#/generator/pythia8/stat
+

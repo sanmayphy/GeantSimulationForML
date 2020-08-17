@@ -1,0 +1,28 @@
+/generator/select pythia8
+#/generator/pythia8/verbose 1
+
+#setting seed to be able to restore the event in future
+#/generator/pythia8/setSeed CombinationOfRunNumberAndEventNumber
+
+/generator/pythia8/read Beams:eCM = 300.
+/generator/pythia8/read Beams:idA = 2212
+/generator/pythia8/read Beams:idB = 2212
+#/generator/pythia8/read PromptPhoton:all = on
+#/generator/pythia8/read WeakBosonExchange:all = on
+/generator/pythia8/read HardQCD:all = on
+/generator/pythia8/read PhaseSpace:pTHatMin = 0.5
+/generator/pythia8/read PartonLevel:ISR = off
+/generator/pythia8/read PartonLevel:FSR = off
+
+/generator/pythia8/init 2212 2212 14000.
+
+# ---- for gun -- #
+#/generator/pythia8/read ProcessLevel:all = off
+#/generator/pythia8/read Standalone:allowResDec = on
+
+#/tracking/verbose 1
+/tracking/storeTrajectory 1
+
+/run/beamOn 100
+#/generator/pythia8/stat
+

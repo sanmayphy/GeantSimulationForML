@@ -1,0 +1,712 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "HepMCEx02"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"include_directories",
+			"include",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/Applications/root_v6.18.04/cmake/ROOTUseFile.cmake",
+			"/Users/antonc/Documents/geant4.10.5-install/lib/Geant4-10.5.1/UseGeant4.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 150,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 37,
+				"parent" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 36,
+				"parent" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -Qunused-arguments -DGL_SILENCE_DEPRECATION -stdlib=libc++ -DG4USE_STD11 -std=c++11  -std=c++11 -m64 -pipe -fsigned-char -fno-common -Qunused-arguments -pthread -stdlib=libc++ -O2 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks  -std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 15,
+					"define" : "G4INTY_USE_XT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "G4LIB_BUILD_DLL"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "G4LIB_USE_PYTHIA8"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "G4UI_USE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "G4UI_USE_TCSH"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "G4VERBOSE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "G4VIS_USE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "G4VIS_USE_OPENGL"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "G4VIS_USE_OPENGLX"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "G4_STORE_TRAJECTORY"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/Users/antonc/Programs/HEP_SOFTWARES/HEPMC/HepMC-install/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Applications/root_v6.18.04/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/antonc/Documents/GitHub/Master/InOne/HepMCEx02_PGun_CylindricGeo_CELL_HOM_Mat/cmake"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/antonc/Documents/GitHub/Master/InOne/HepMCEx02_PGun_CylindricGeo_CELL_HOM_Mat/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/antonc/Documents/GitHub/Master/InOne/HepMCEx02_PGun_CylindricGeo_CELL_HOM_Mat/src"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/antonc/Programs/HEP_SOFTWARES/PYTHIA/pythia8243/include"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/Users/antonc/Documents/geant4.10.5-install/include/Geant4"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "HepMCdict::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Event::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "HepMCEx02::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -Qunused-arguments -DGL_SILENCE_DEPRECATION -stdlib=libc++ -DG4USE_STD11 -std=c++11  -std=c++11 -m64 -pipe -fsigned-char -fno-common -Qunused-arguments -pthread -stdlib=libc++ -O2 -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks",
+				"role" : "frameworkPath"
+			},
+			{
+				"fragment" : "-L/Applications/root_v6.18.04/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Applications/root_v6.18.04/lib -Wl,-rpath,/Users/antonc/Documents/geant4.10.5-install/lib -Wl,-rpath,/Users/antonc/Programs/HEP_SOFTWARES/HEPMC/HepMC-install/lib -Wl,-rpath,/Users/antonc/Programs/HEP_SOFTWARES/PYTHIA/pythia8243/lib -Wl,-rpath,/Users/antonc/Documents/GitHub/Master/InOne/HepMCEx02_PGun_CylindricGeo_CELL_HOM_Mat/build /Users/antonc/Documents/geant4.10.5-install/lib/libG4Tree.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4GMocren.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4visHepRep.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4RayTracer.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4VRML.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4OpenGL.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4gl2ps.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4interfaces.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4persistency.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4error_propagation.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4readout.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4physicslists.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4parmodels.dylib /Users/antonc/Programs/HEP_SOFTWARES/HEPMC/HepMC-install/lib/libHepMC.dylib -L/Users/antonc/Programs/HEP_SOFTWARES/HEPMC/HepMC-install/lib -lHepMCfio /Users/antonc/Programs/HEP_SOFTWARES/PYTHIA/pythia8243/lib/libpythia8.dylib libHepMCdict.a /Applications/root_v6.18.04/lib/libCore.so /Applications/root_v6.18.04/lib/libImt.so /Applications/root_v6.18.04/lib/libRIO.so /Applications/root_v6.18.04/lib/libNet.so /Applications/root_v6.18.04/lib/libHist.so /Applications/root_v6.18.04/lib/libGraf.so /Applications/root_v6.18.04/lib/libGraf3d.so /Applications/root_v6.18.04/lib/libGpad.so /Applications/root_v6.18.04/lib/libROOTDataFrame.so /Applications/root_v6.18.04/lib/libTree.so /Applications/root_v6.18.04/lib/libTreePlayer.so /Applications/root_v6.18.04/lib/libRint.so /Applications/root_v6.18.04/lib/libPostscript.so /Applications/root_v6.18.04/lib/libMatrix.so /Applications/root_v6.18.04/lib/libPhysics.so /Applications/root_v6.18.04/lib/libMathCore.so /Applications/root_v6.18.04/lib/libThread.so /Applications/root_v6.18.04/lib/libMultiProc.so libEvent.dylib -llzma /Users/antonc/Documents/geant4.10.5-install/lib/libG4FR.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4vis_management.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4modeling.dylib -framework OpenGL /usr/X11R6/lib/libGL.dylib /usr/X11R6/lib/libGLU.dylib /usr/X11R6/lib/libSM.dylib /usr/X11R6/lib/libICE.dylib /usr/X11R6/lib/libX11.dylib /usr/X11R6/lib/libXext.dylib /usr/X11R6/lib/libXmu.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4run.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4event.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4tracking.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4processes.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4analysis.dylib /usr/X11R6/lib/libfreetype.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4zlib.dylib /usr/lib/libexpat.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4digits_hits.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4track.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4particles.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4geometry.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4materials.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4graphics_reps.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4intercoms.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4global.dylib /Users/antonc/Documents/geant4.10.5-install/lib/libG4clhep.dylib /Users/antonc/Programs/HEP_SOFTWARES/HEPMC/HepMC-install/lib/libHepMC.dylib /Applications/root_v6.18.04/lib/libCore.so /Applications/root_v6.18.04/lib/libImt.so /Applications/root_v6.18.04/lib/libRIO.so /Applications/root_v6.18.04/lib/libNet.so /Applications/root_v6.18.04/lib/libHist.so /Applications/root_v6.18.04/lib/libGraf.so /Applications/root_v6.18.04/lib/libGraf3d.so /Applications/root_v6.18.04/lib/libGpad.so /Applications/root_v6.18.04/lib/libROOTDataFrame.so /Applications/root_v6.18.04/lib/libTree.so /Applications/root_v6.18.04/lib/libTreePlayer.so /Applications/root_v6.18.04/lib/libRint.so /Applications/root_v6.18.04/lib/libPostscript.so /Applications/root_v6.18.04/lib/libMatrix.so /Applications/root_v6.18.04/lib/libPhysics.so /Applications/root_v6.18.04/lib/libMathCore.so /Applications/root_v6.18.04/lib/libThread.so /Applications/root_v6.18.04/lib/libMultiProc.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "HepMCEx02",
+	"nameOnDisk" : "HepMCEx02",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "HepMCEx02.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/CaloRCellParameterisation.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Cell.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/DownResolution.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/H02DetectorConstruction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/H02EventAction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/H02Field.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/H02MuonHit.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/H02MuonSD.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/H02PFlow.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/H02PrimaryGeneratorAction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/H02PrimaryGeneratorMessenger.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/H02RunAction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/H02RunData.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/H02SteppingAction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/H02TrackInformation.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/H02TrackingAction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/HEPEvtcom.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/HepMCG4AsciiReader.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/HepMCG4AsciiReaderMessenger.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/HepMCG4Interface.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/HepMCG4Pythia8Interface.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/HepMCG4Pythia8Messenger.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/HepMCG4PythiaInterface.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/HepMCG4PythiaMessenger.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/HepMCG4RootReader.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/HepMCG4RootReaderMessenger.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/TopoCluster.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/B4Analysis.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/CaloRCellParameterisation.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/CaloRConstants.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/Cell.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/Classes.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/DownResolution.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/GlobalVariables.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02DetectorConstruction.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02EventAction.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02Field.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02FullTrajectoryInfo.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02MuonHit.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02MuonSD.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02PFlow.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02PrimaryGeneratorAction.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02PrimaryGeneratorMessenger.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02RunAction.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02RunData.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02SteppingAction.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02TrackInformation.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02TrackingAction.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/H02TrajField.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/HepMCG4AsciiReader.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/HepMCG4AsciiReaderMessenger.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/HepMCG4Classes.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/HepMCG4Interface.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/HepMCG4Pythia8Interface.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/HepMCG4Pythia8Messenger.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/HepMCG4PythiaInterface.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/HepMCG4PythiaMessenger.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/HepMCG4RootReader.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/HepMCG4RootReaderMessenger.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/TopoCluster.hh",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

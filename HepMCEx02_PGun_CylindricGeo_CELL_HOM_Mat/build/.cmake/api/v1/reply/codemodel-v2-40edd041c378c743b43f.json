@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HepMCEx02",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Event::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Event-RelWithDebInfo-87e34e9e6de58e42c215.json",
+					"name" : "Event",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "G__Event::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-G__Event-RelWithDebInfo-8c57d4e3961dc5dd69ab.json",
+					"name" : "G__Event",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HepMC::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HepMC-RelWithDebInfo-1ca853ff69a14034e593.json",
+					"name" : "HepMC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HepMCEx02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HepMCEx02-RelWithDebInfo-94f10fbd2f2b6ffa6085.json",
+					"name" : "HepMCEx02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HepMCdict::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HepMCdict-RelWithDebInfo-aa69bb76582798ac3704.json",
+					"name" : "HepMCdict",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/antonc/Documents/GitHub/Master/InOne/HepMCEx02_PGun_CylindricGeo_CELL_HOM_Mat/build",
+		"source" : "/Users/antonc/Documents/GitHub/Master/InOne/HepMCEx02_PGun_CylindricGeo_CELL_HOM_Mat"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
